@@ -7,9 +7,9 @@ const Happy = () => {
       <div className="logo"></div>
       <div className="logo"></div>
       <div className="logo"></div>
+      {/* <div className="logo"></div>
       <div className="logo"></div>
-      <div className="logo"></div>
-      <div className="logo"></div>
+      <div className="logo"></div> */}
     
   
     </div>

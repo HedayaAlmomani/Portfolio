@@ -10,7 +10,7 @@
 h1 span {
   padding: 17px;
 
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 900;
 }
 
@@ -53,7 +53,7 @@ h1 span {
   /* background-color: aqua; */
   box-shadow: 0px 10px 10px 10px;
   color: black;
-  animation: animatee 7s linear infinite;
+  animation: animatee 7s linear 2;
 }
 
 .image {
@@ -65,13 +65,13 @@ h1 span {
 
 @keyframes animatee {
   0% {
-    opacity: 0.2;
+    opacity:1;
     transform: rotateY(90deg);
     /* filter: blur(3px); */
   }
 
   20% {
-    opacity: 0.6;
+    opacity:1;
     transform: rotateY(30deg);
 
     /* filter: blur(2px); */

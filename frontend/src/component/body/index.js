@@ -1,18 +1,14 @@
+import Navbar from "../navbar"
+import Home from "../home"
+import Project from "../projects"
+import About from "../about"
 
 const Body = ()=>{
     return <div>
-<div class="container-sm">
-
-
-    <div className="intro ">
 
 
 
-    <h1>Hello, My </h1><h1>name's Hedaya</h1>
-           <h1>  I'm Full Stack
-              </h1><h1>Developer</h1>
-
-    </div>
+ 
       
 
 
@@ -20,11 +16,10 @@ const Body = ()=>{
 
 
 
+<Home />
+<About/>
+<Project/>
 
-
-
-              
-    </div>
 
 
 

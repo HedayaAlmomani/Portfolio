@@ -1,10 +1,8 @@
 .alll_body{
-	/* cursor: url('cursor.png'), auto; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 700px;
-	/* background: rgba(240, 144, 0, 0.2); */
+	min-height: 370px;
     height: 500px;
 
 }
@@ -14,13 +12,13 @@
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
-	background: #fbff00;
+	background: #fbff00f3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	transition: .5s;
 	left: 80%;
-	bottom: 20%;
+	bottom: 10%;
 }
 
 .face:hover{
@@ -107,17 +105,19 @@
 .total_face{
 	display: flex;
 	flex-direction: row;
-	background: rgb(233, 249, 250);
+	background: rgba(173, 187, 192, 0.452);
 	/* justify-content: space-around; */
 	width: 100%;
+	height: 470px;
 }
 .total_face p{
 	width: 39%;
 	margin: 110px 80px;
-	font-size: larger;
+	font-size: 25px;
 	font-weight: 700;
 	text-align: start;
-	color: rgb(92, 90, 90);
+	color: rgb(119, 119, 119);
+	
 	
 
 }

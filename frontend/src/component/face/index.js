@@ -1,3 +1,4 @@
+import Contact from "../contact"
 import "./style.css"
 const Face =()=>{
     return <>
@@ -9,7 +10,6 @@ I got advanced knowledge of MERN Stack, MySQL, JavaScript, jQuery
  and aiming to expand my knowledge and skills in web development
 </p>
 
-    
     
     <div className="alll_body">
 
@@ -25,7 +25,10 @@ I got advanced knowledge of MERN Stack, MySQL, JavaScript, jQuery
 		</div>
 	</div>
     </div>
+
     </div>
+
+    <Contact/>
     </>
 }
 

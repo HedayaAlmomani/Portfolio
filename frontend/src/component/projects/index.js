@@ -1,6 +1,7 @@
 import "./style.css"
+import { useNavigate } from "react-router-dom"
 const Project = ()=>{
-
+const navegate = useNavigate();
 
 
     const img1 ="https://www.channelsight.com/wp-content/uploads/2022/04/shutterstock_740501749.jpg"
@@ -26,14 +27,18 @@ const Project = ()=>{
 <div className="allProjects ">
 <div className="pro ">
 
-<img className="image " src={img1}/>
+<img onClick={()=>{
+    navegate("/project1")
+}} className="image " src={img1}/>
 <p>An online store for selling electronic devices .Allows users to easily buy products 
 Express.js, MYSQL,React and Redux</p>
 
 
 </div>
 <div className="pro">
-<img className="image " src={img2}/>
+<img onClick={()=>{
+    navegate("/project2")
+}} className="image " src={img2}/>
 <p>
 An online clothing store that displays all the products and all their details, where the user can shop online according to the category they desire
 Express.js, Mongoose,React 

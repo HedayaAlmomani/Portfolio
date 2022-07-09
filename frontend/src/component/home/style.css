@@ -1,0 +1,113 @@
+
+
+.sidebar{
+
+width: 28%;
+height: 100vh;
+background-color: rgb(5, 5, 17);
+display: flex;
+flex-direction: column;
+align-items: center;
+animation:animatinSide 1s linear ;
+
+}
+
+.sidebar img{
+    height: 25%;
+    border-radius: 1000px;
+    margin-top: 30px;
+    border: solid;color: rgba(39, 39, 39, 0.89);
+    border-width: 10px;
+}
+.sidebar h4{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 15px;
+}
+.link_cotact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+.bi{
+ 
+    color: rgb(255, 255, 255);
+   
+   
+}
+
+.link_cotact i{
+  
+   background-color: rgba(39, 39, 39, 0.89);
+margin: 20px 15px;
+padding:7px 10px ;
+border-radius: 70px;
+}
+.link_cotact i:hover{
+  background-color: rgb(72, 121, 255);
+
+ }
+
+.link_Home{
+  
+    flex-direction: column;
+  
+    margin-top: 20px;
+    justify-self: start;
+}
+.link_Home div{
+    display: flex;
+    flex-direction: row;
+  
+    margin-top: 20px; 
+    margin-right: 130px;
+}
+.link_Home div i{
+    margin: 0px 10px;
+    font-size: large;
+}
+
+.link_Home div h5{
+
+    color: rgb(255, 255, 255);
+}
+.link_Home div h5:hover{
+
+   cursor: pointer;
+}
+.link_Home div i{
+    cursor: pointer;
+}
+
+@keyframes animatinSide{
+
+
+   0%{
+
+
+      opacity: 0;
+     
+     
+    }
+    100%{
+        opacity: 1;
+        
+      
+     }
+
+}
+.all_home_home{
+   
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+}
+.img_home{
+    height: 100vh;
+    /* height: 620px; */
+   width: 100%;
+}
