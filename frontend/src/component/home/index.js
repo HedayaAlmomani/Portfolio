@@ -2,7 +2,7 @@ import Project from "../projects";
 import { useNavigate } from "react-router-dom";
 import "./style.css";
 
-const Home = () => {
+const Home = ({value}) => {
   let navegate= useNavigate()
   let img =
     "https://res.cloudinary.com/hudhud/image/upload/v1657316290/%D8%B5%D9%88%D8%B1%D8%A9%D8%A9_s01esg.png";
@@ -10,7 +10,9 @@ const Home = () => {
     "https://res.cloudinary.com/hudhud/image/upload/v1657323881/aaaaaaaaaaaa_vpqbdl.png";
   return (
     <div className="all_home_home">
-      <div className="sidebar">
+  
+
+{ value &&     <div className="sidebar">
         <img src={img} />
         <h4>Hedaya Al-Momani</h4>
 
@@ -55,7 +57,7 @@ const Home = () => {
             <h5>Portfolio</h5>
           </div>
         </div>
-      </div>
+      </div>}
 
 
 <img className="img_home" src={img2} />

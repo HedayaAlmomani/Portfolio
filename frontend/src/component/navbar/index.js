@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import About from "../about";
 import Body from "../body";
@@ -11,9 +12,13 @@ import Project from "../projects";
 import "./style.css";
 
 const Navbar = () => {
+  const [sidebar , setSidebar]=useState(true)
   return (
     <div className="tot">
       <div className="links">
+      <i onClick={()=>{
+        setSidebar(!sidebar)
+      }} class="bi bi-list"></i>
         <Link to="/resume"> Resume </Link>
 
         <Link to="/"> Home </Link>
@@ -24,7 +29,7 @@ const Navbar = () => {
         {/* <Route path="/" element={<Final />} /> */}
         <Route path="/project1" element={<Details />} />
         <Route path="/about" element={<About />} />
-        <Route path="/" element={<Body />} />
+        <Route path="/" element={<Body value={sidebar} />} />
         <Route path="/resume" element={<Face />} />
         
         <Route path="/project2" element={<Project2 />} />

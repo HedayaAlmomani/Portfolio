@@ -3,6 +3,9 @@
   background-color: rgba(224, 224, 224, 0.39);
   
 }
+.bi-list{
+  display: none;
+}
 
 .links {
   display: flex;
@@ -42,16 +45,27 @@
     font-weight: 500;
     font-size: 30px;
   }
+
+  .bi-list{
+    /* color: black; */
+    /* background-color: black; */
+    font-size: 15px;
+  }
 }
 @media (max-width: 500px){
 
   .links a {
     text-decoration: none;
     color: black;
-    font-size: 17px;
-    margin: 0px 10px;
-    font-weight: 600;
+    font-size: 11px;
+    margin: 0px 5px;
+    font-weight: 700;
   }
-
+  .bi-list{
+    display: flex;
+    color: rgb(247, 20, 20);
+    background-color: black;
+    font-size: 15px;
+  }
 
 }

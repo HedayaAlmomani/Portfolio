@@ -3,7 +3,7 @@ import Home from "../home"
 import Project from "../projects"
 import About from "../about"
 
-const Body = ()=>{
+const Body = ({value})=>{
     return <div>
 
 
@@ -16,7 +16,7 @@ const Body = ()=>{
 
 
 
-<Home />
+<Home value={value} />
 <About/>
 <Project/>
 
