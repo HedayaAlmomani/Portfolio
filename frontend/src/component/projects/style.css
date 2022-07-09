@@ -1,19 +1,8 @@
-.letter {
-    position: absolute;
-  
-    margin-top: 20px;
-    height: 90px;
-    padding-left: 100%;
-    transform: translate(-50%);
-  }
-  
-  h1 span {
-    padding: 17px;
-  
-    font-size: 50px;
-    font-weight: 900;
-  }
-  
+
+.totalDiv h2{
+
+  justify-self: center;
+}
   @keyframes animate {
     0% {
       opacity: 0.2;
@@ -88,4 +77,52 @@
     font-size: larger;
     font-weight: 800;
     color: rgb(43, 43, 43);
+  }
+
+  @media (max-width: 500px){
+
+
+    .totalDiv h2{
+
+      margin-left: 20%;
+      font-weight: 700;
+    }
+   
+      .allProjects {
+        padding-top: 40px;
+
+        display: flex;
+        flex-direction: column;
+      
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      
+      .pro {
+        height: 450px;
+        width: 200px;
+        /* background-color: aqua; */
+        box-shadow: 0px 4px 4px 4px;
+        color: black;
+        animation: animatee 7s linear 2;
+      }
+      
+      .image {
+        width: 200px;
+      }
+      .totalDiv {
+        margin-bottom: 0px;
+      }
+   
+      .pro p{
+        margin: 7px;
+        font-weight: 400;
+        color: rgb(43, 43, 43);
+      }
+
+
+
+
   }

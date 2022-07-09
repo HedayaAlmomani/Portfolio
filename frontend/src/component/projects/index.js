@@ -9,18 +9,7 @@ const navegate = useNavigate();
     const img3="https://idowaz.com/blog/wp-content/uploads/2021/10/Healthy-Food-Doesnt-Have-To-Be-Expensive.jpg"
     return <div className="totalDiv">
 
-<selection>
-    <h1 className="letter" >
-    <span>P</span>
-    <span>R</span>
-    <span>O</span>
-    <span>J</span>
-    <span>E</span>
-    <span>C</span>
-    <span>T</span>
-    <span >S</span>
-    </h1>
-</selection>
+<h2>PROJECTS</h2>
 
 
 
