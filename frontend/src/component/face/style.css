@@ -105,7 +105,8 @@
 .total_face{
 	display: flex;
 	flex-direction: row;
-	background: rgba(173, 187, 192, 0.452);
+	background: rgba(223, 225, 228, 0.452);
+	
 	/* justify-content: space-around; */
 	width: 100%;
 	height: 470px;
@@ -119,5 +120,107 @@
 	color: rgb(119, 119, 119);
 	
 	
+
+}
+@media (max-width: 500px) {
+.total_face{
+	height: 300px;
+}
+	.total_face p{
+		width: 50%;
+		margin: 50px 20px;
+		font-size: 10px;
+		font-weight: 900;
+		text-align: start;
+		color: rgb(119, 119, 119);
+		
+		
+	
+	}
+
+	.face{
+		position: relative;
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		background: #fbff00f3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: .5s;
+		left: 17%;
+		bottom: 27%;
+	}
+
+	.eyes .eye{
+		position: relative;
+		width: 40px;
+		height: 33px;
+		display: block;
+		background: #fff;
+		margin: 0 5px;
+		border-radius: 50%;
+	}
+
+	.eyes{
+		position: relative;
+		top: -15px;
+		display: flex;
+	}
+
+	.eyes .eye::before{
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 25px;
+		transform: translate(-50%, -50%);
+		width: 20px;
+		height: 20px;
+		background: #333;
+		border-radius: 50%;
+		animation:eee 2.5s linear infinite
+	}
+
+
+	.face::before{
+		content: '';
+		position: absolute;
+		top: 80px;
+		width: 50px;
+		height: 23px;
+		background: #b57700;
+		border-bottom-right-radius: 70px;
+		border-bottom-left-radius: 70px;
+		transition: .5s
+	}
+
+	@keyframes eee{
+		0%{
+			position: absolute;
+			top: 50%;
+			left: 10px;
+		}
+		25%{
+			position: absolute;
+			top: 70%;
+			left: 15px;
+		}
+		50%{
+			position: absolute;
+			top: 50%;
+			left: 30px;
+		}
+		75%{
+			position: absolute;
+		bottom: 70%;
+		   right: 30px;
+		}
+		100%{
+			position: absolute;
+			top: 50%;
+			left: 20px;
+		}
+	}
+
 
 }

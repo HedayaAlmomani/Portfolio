@@ -28,7 +28,7 @@ I got advanced knowledge of MERN Stack, MySQL, JavaScript, jQuery
 
     </div>
 
-    <Contact/>
+    {/* <Contact/> */}
     </>
 }
 

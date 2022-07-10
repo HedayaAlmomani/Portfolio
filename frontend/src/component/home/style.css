@@ -12,6 +12,8 @@
   flex-direction: column;
   align-items: center;
   animation: animatinSide 1s linear;
+ 
+
 }
 
 .sidebar img {
@@ -111,7 +113,8 @@
     flex-direction: column;
     align-items: center;
     animation: animatinSide 1s linear;
-    z-index: 11;
+    z-index: 111111;
+  
   }
 
   .sidebar img {
