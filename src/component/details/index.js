@@ -36,7 +36,7 @@ The fourth part of the main page contains the main category</p></div>
 
   <img src="https://res.cloudinary.com/hudhud/image/upload/v1656873385/Screenshot_4_zlgz0b.png" />
 <p>The cart page contains the products added by the user, user can increase the quantity of the product and  delete it. It contains a total price and the  button (Empty Cart ).</p></div>   
-///////////////////////////////
+
 <div className="section">
 
   <img src="https://res.cloudinary.com/hudhud/image/upload/v1656873385/Screenshot_6_ktcuqn.png" />
@@ -75,10 +75,10 @@ The fourth part of the main page contains the main category</p></div>
 Add product</p></div> 
 <div className="section">
   <img src="https://res.cloudinary.com/hudhud/image/upload/v1656873387/Screenshot_16_wsdbbi.png" />
-<p>REGISTER Page</p></div> 
+<p>Register Page</p></div> 
 <div className="section">
   <img src="https://res.cloudinary.com/hudhud/image/upload/v1656873387/Screenshot_17_n7jvcc.png" />
-<p>LOGIN Page</p></div> 
+<p>Login Page</p></div> 
     
 
 
