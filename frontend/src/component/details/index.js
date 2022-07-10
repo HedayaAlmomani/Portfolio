@@ -5,7 +5,7 @@ const Details=()=>{
         <a className="link_site" href="https://ecmashop.netlify.app/">site link</a>
       </div>
   <div className="section">
-  <img src="https://res.cloudinary.com/hudhud/image/upload/v1656873387/Screenshot_7_nybnjh.png" />
+  <img src="https://res.cloudinary.com/hudhud/image/upload/v1657449121/%D8%AC%D8%AF%D9%8A%D8%AF_kxhwdu.png" />
 <p>The Homepage has a navbar that contains login, register,  search and a sidebar that contains all brands and categories
 <br></br>
 <br></br>

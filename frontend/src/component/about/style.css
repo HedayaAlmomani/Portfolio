@@ -101,7 +101,7 @@
 
   .div1 {
  
-  
+  width: 150%;
     display: flex;
     flex-direction: column;
     padding-bottom: 10%;
@@ -110,14 +110,16 @@
 
 
   .div4 img {
-    padding-right: 20px;
-    padding-left: 70px;
-    padding-top: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
     width: 40vh;
   }
   .div3 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 
@@ -181,11 +183,41 @@
     width: 25vh;
   }
 
+  .div4 img {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 25vh;
+    position: relative;
+    right: 100px;
+    margin-bottom: 10px;
+  }
+  .div4 {
+    animation: image 1s linear;
+  }
+  @keyframes image {
+    0% {
+       position: relative;
+      right: 20%;
+    
+    }
+  
+    100% {
+       position: relative;
+      right: 0
+    }
+  }
+
+
+
+
+
 
   @keyframes image2 {
     0% {
       position: relative;
       left: 50px;
+
     }
   
     100% {

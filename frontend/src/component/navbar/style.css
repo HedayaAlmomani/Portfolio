@@ -63,9 +63,11 @@
   }
   .bi-list{
     display: flex;
-    color: rgb(247, 20, 20);
-    background-color: black;
-    font-size: 15px;
+    color: rgb(4, 6, 26);
+    /* background-color: rgb(201, 194, 194); */
+    font-size: 17px;
+    margin-right: 10px;
+  
   }
 
 }

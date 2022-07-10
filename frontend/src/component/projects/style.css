@@ -1,7 +1,18 @@
 
+
+.totalDiv{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
 .totalDiv h2{
 
-  justify-self: center;
+  margin-bottom: 5%;
+font-size: 5vh;
+margin-left: 70px;
+font-weight: 900;
 }
   @keyframes animate {
     0% {
@@ -26,19 +37,21 @@
   
   /* /////////////////////////////////////////////////////// */
   .allProjects {
-    padding-top: 140px;
+    padding-top: 1%;
     display: flex;
     flex-direction: row;
   
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
   .pro {
     height: 450px;
-    width: 300px;
+    width: 25%;
     /* background-color: aqua; */
     box-shadow: 0px 10px 10px 10px;
     color: black;
@@ -46,7 +59,7 @@
   }
   
   .image {
-    width: 300px;
+    width: 100%;
   }
   .totalDiv {
     margin-bottom: 50px;
@@ -82,12 +95,21 @@
   @media (max-width: 500px){
 
 
+    .totalDiv{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    
     .totalDiv h2{
 
-      margin-left: 20%;
-      font-weight: 700;
+    margin-bottom: 5%;
+    font-size: 2.5vh;
+    margin-left: 38%;
+    font-weight: 900;
     }
-   
       .allProjects {
         padding-top: 40px;
 
@@ -101,9 +123,9 @@
       }
       
       .pro {
-        height: 450px;
+        height: 280px;
         width: 200px;
-        /* background-color: aqua; */
+      margin-bottom: 10%;
         box-shadow: 0px 4px 4px 4px;
         color: black;
         animation: animatee 7s linear 2;
@@ -118,7 +140,8 @@
    
       .pro p{
         margin: 7px;
-        font-weight: 400;
+        font-size: 13px;
+        font-weight: 500;
         color: rgb(43, 43, 43);
       }
 
